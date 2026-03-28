@@ -1,3 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/crazyrunsnail/gitblog</id><title>RSS feed of crazyrunsnail's gitblog</title><updated>2026-03-28T14:31:29.785278+00:00</updated><link href="https://github.com/crazyrunsnail/gitblog"/><link href="https://raw.githubusercontent.com/crazyrunsnail/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/crazyrunsnail/gitblog/issues/1</id><title>Hello world!</title><updated>2026-03-28T14:31:30.492007+00:00</updated><content type="html"><![CDATA[<p>这是我的第一篇博客，我按照教程走了一遍。不确认是否能够走通！</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/crazyrunsnail/gitblog</id><title>RSS feed of crazyrunsnail's gitblog</title><updated>2026-03-28T15:17:20.084936+00:00</updated><link href="https://github.com/crazyrunsnail/gitblog"/><link href="https://raw.githubusercontent.com/crazyrunsnail/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/crazyrunsnail/gitblog/issues/1</id><title>Hello world!</title><updated>2026-03-28T15:17:20.667793+00:00</updated><content type="html"><![CDATA[<p>这是我的第N次第一篇博客，花了30分钟把这个搭建成功了。</p>
+<h3>Github操作</h3>
+<h4>generate new token</h4>
+<p>名称 G_T,  选择了刚刚的repo, 权限选择的是Actions read and write, 无过期时间, 保存到 Notes</p>
+<h4>repo 中的操作</h4>
+<ul>
+<li>Settings - Pages: Build and Deployment 选择 Github Actions</li>
+<li>Settings - Secrets  and Variables - Actions: 在 repository secrets 加上刚刚保存到 Notes 的 G_T</li>
+<li>Settings - Actions: 检查一下权限是 read and write</li>
+<li>Actions: 选择enable</li>
+</ul>
+<h3>本地操作</h3>
+<ul>
+<li>clone 到项目到本地，把 <code>BACKUP</code> 删除掉所有的文件</li>
+<li>修改 <code>main.py</code> MD_HEAD 可以获取 os.env</li>
+<li>修改 <code>.github/workflows/generate_readme.ym</code>:  1. 在 <code>Generate new md</code> 增加 MD_HEAD 的 env</li>
+<li>修改 <code>.github/workflows/generate_site.yml</code>: BASE_URL</li>
+<li>修改 <code>config.toml</code> : 修改 base_url, even_title, even_menu</li>
+</ul>
 ]]></content><link href="https://github.com/crazyrunsnail/gitblog/issues/1"/><category term="welcome"/><published>2026-03-28T14:03:56+00:00</published></entry></feed>
