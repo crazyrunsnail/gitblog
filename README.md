@@ -4,12 +4,11 @@ My personal blog([About Me](https://github.com/crazyrunsnail/gitblog/issues/2)) 
 
 [RSS Feed](https://raw.githubusercontent.com/crazyrunsnail/gitblog/master/feed.xml)
 
+## 置顶文章
+- [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
 ## 最近更新
 - [关于我](https://github.com/crazyrunsnail/gitblog/issues/2)--2026-03-28
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
-## documentation
-
-- [关于我](https://github.com/crazyrunsnail/gitblog/issues/2)--2026-03-28
-## welcome
+## 技术文章
 
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
