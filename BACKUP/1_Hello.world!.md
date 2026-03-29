@@ -1,5 +1,7 @@
 # [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)
 
+# 我是怎么看待博客
+
 这是我的第N次第一篇博客，花了30分钟把这个搭建成功了。
 
 选择yihong的gitblog作为我的个人博客模版很简单，一直在使用running_page,  gitblog又有一点hack的味道，和之前搭的静态个人博客不一样，gitblog 是先在 issues 写然后再备份到 repo， 如果真的是挑毛病，那就 Github 没有原生支持 issues 只能限制本人新建。
@@ -12,8 +14,8 @@
 
 如果将博客不是定位为向外输出，而是向内输出或者“证明自己不是AI”，是一面镜子，那么这样写博客可能会轻松处在一些
 
----
-我是怎么搭建这个博客的？
+
+# 我是怎么搭建这个博客的
 
 fork 一份 yihong 的 gitblog 后，主要是 `Github操作` 和 `本地操作`
 
