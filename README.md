@@ -7,6 +7,7 @@ My personal blog([About Me](https://github.com/crazyrunsnail/gitblog/issues/2)) 
 ## 置顶文章
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
 ## 最近更新
+- [新工作感想](https://github.com/crazyrunsnail/gitblog/issues/3)--2026-05-10
 - [关于我](https://github.com/crazyrunsnail/gitblog/issues/2)--2026-03-28
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
 ## 技术文章
