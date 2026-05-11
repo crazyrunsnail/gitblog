@@ -10,6 +10,9 @@ My personal blog([About Me](https://github.com/crazyrunsnail/gitblog/issues/2)) 
 - [新工作感想](https://github.com/crazyrunsnail/gitblog/issues/3)--2026-05-10
 - [关于我](https://github.com/crazyrunsnail/gitblog/issues/2)--2026-03-28
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
+## 职业相关
+
+- [新工作感想](https://github.com/crazyrunsnail/gitblog/issues/3)--2026-05-10
 ## 技术文章
 
 - [Hello world!](https://github.com/crazyrunsnail/gitblog/issues/1)--2026-03-28
