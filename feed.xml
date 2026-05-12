@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/crazyrunsnail/gitblog</id><title>RSS feed of crazyrunsnail's gitblog</title><updated>2026-05-11T23:18:09.627015+00:00</updated><link href="https://github.com/crazyrunsnail/gitblog"/><link href="https://raw.githubusercontent.com/crazyrunsnail/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/crazyrunsnail/gitblog/issues/3</id><title>新工作感想</title><updated>2026-05-11T23:18:10.589237+00:00</updated><content type="html"><![CDATA[<p>2026年4月，我离开了工作近8年的公司，离开的时候我没有过多的犹豫和不舍。在过去的一年中，我都在寻找机会，面了5次了，收到了3个offer，而这是第3个。前面2个的其中一个是汇丰外包，到了deadline我拒绝了，另外一个是我答应了，他们过了20天左右通知我岗位需要重新评估</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/crazyrunsnail/gitblog</id><title>RSS feed of crazyrunsnail's gitblog</title><updated>2026-05-12T01:19:23.425165+00:00</updated><link href="https://github.com/crazyrunsnail/gitblog"/><link href="https://raw.githubusercontent.com/crazyrunsnail/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/crazyrunsnail/gitblog/issues/3</id><title>新工作感想</title><updated>2026-05-12T01:19:24.377293+00:00</updated><content type="html"><![CDATA[<p>2026年4月，我离开了工作近8年的公司，离开的时候我没有过多的犹豫和不舍。在过去的一年中，我都在寻找机会，面了5次了，收到了3个offer，而这是第3个。前面2个的其中一个是汇丰外包，到了deadline我拒绝了，另外一个是我答应了，他们过了20天左右通知我岗位需要重新评估</p>
 <p>在这段求职的过程有几个是比较难接受的: 未满一年没有年假、公积金按基数6K的5%来缴纳 以及 大小周</p>
 <p>现在回想起来之前的公司是小而美的公司:</p>
 <ul>
@@ -23,13 +23,27 @@
 <p>上班的第一天，副总监给了我一台笔记本电脑发和了一张图片各系统的概览。大部多很多核心的系统不是自研的，自研的系统都放在这台电脑里，eclipse 放的是 Java 项目， HBuilderX 放的是终端的项目， 几个简单业务场景和同步工程。</p>
 <p>后面我发现不少问题:</p>
 <ul>
-<li>代码没有版本控制，有svn但没有用，</li>
-<li>项目虽然都是Java，部分技术都比较旧 war + springmvc + spring，有几个还没用到构建工具，依赖的是 eclipse 传统构建</li>
-<li>发布比较混乱: 1. 直接 <code>java -jar xx.jar</code>（没有jvm参数）2.  tomcat 下的 java web 3. docker 启动 tomcat 但还是挂载路径，路径放的是 java web 的class</li>
-<li>没有配置管理， 也没有测试环境</li>
+<li>
+<p>代码没有版本控制，有svn但没有用，</p>
+</li>
+<li>
+<p>项目虽然都是Java，部分技术都比较旧 war + springmvc + spring，有几个还没用到构建工具，依赖的是 eclipse 传统构建</p>
+</li>
+<li>
+<p>发布比较混乱: 1. 直接 <code>java -jar xx.jar</code>（没有jvm参数）2.  tomcat 下的 java web 3. docker 启动 tomcat 但还是挂载路径，路径放的是 java web 的class</p>
+</li>
+<li>
+<p>没有配置管理， 也没有测试环境</p>
+</li>
+<li>
+<p>搭建一个CI/CD: gitlab, jenkins, harbor</p>
+</li>
+<li>
+<p>搭建单机可拓展的 k3s 集群</p>
+</li>
 </ul>
-<p>未完...</p>
-]]></content><link href="https://github.com/crazyrunsnail/gitblog/issues/3"/><category term="职业相关"/><published>2026-05-10T15:44:29+00:00</published></entry><entry><id>https://github.com/crazyrunsnail/gitblog/issues/1</id><title>Hello world!</title><updated>2026-05-11T23:18:11.021874+00:00</updated><content type="html"><![CDATA[<img width="2752" height="1536" alt="Image" src="https://github.com/user-attachments/assets/dfad7c74-38e6-4b27-919c-9df06fb1f500" />
+<p>在这中间和大模型聊了很多，日常打开 gemini, Claude, ChatGPT, Deepseek, 说实在, 我还是挺享受这种搭建基建和大模型的日常</p>
+]]></content><link href="https://github.com/crazyrunsnail/gitblog/issues/3"/><category term="职业相关"/><published>2026-05-10T15:44:29+00:00</published></entry><entry><id>https://github.com/crazyrunsnail/gitblog/issues/1</id><title>Hello world!</title><updated>2026-05-12T01:19:24.841174+00:00</updated><content type="html"><![CDATA[<img width="2752" height="1536" alt="Image" src="https://github.com/user-attachments/assets/dfad7c74-38e6-4b27-919c-9df06fb1f500" />
 <h1>我是怎么看待博客</h1>
 <p>这是我的第N次第一篇博客，花了30分钟把这个搭建成功了。</p>
 <p>选择yihong的gitblog作为我的个人博客模版很简单，一直在使用running_page,  gitblog又有一点hack的味道，和之前搭的静态个人博客不一样，gitblog 是先在 issues 写然后再备份到 repo， 如果真的是挑毛病，那就 Github 没有原生支持 issues 只能限制本人新建。</p>
